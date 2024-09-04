@@ -2,14 +2,18 @@
   "name": "chess-boardz",
   "version": "0.1.0",
   "description": "An exploration of chess openings, the resulting board states, and board representation models.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "author": "Arthur Little <1690572+littleaj@users.noreply.github.com>",
   "repository": {
     "type": "github",
     "url": "github:littleaj/chess-boardz"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
 }
